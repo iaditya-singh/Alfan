@@ -1,0 +1,569 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 5%;
+    padding: 20px;
+}
+
+.navbar img {
+    width: 20px;
+}
+
+h3 {
+    width: 5%;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.navbar a {
+    width: 10%;
+
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+
+    margin-left: 20px;
+}
+
+.li {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 280px;
+    margin-right: 150px;
+
+}
+
+li {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+    color: rgb(43, 43, 43);
+}
+
+li:hover {
+    font-weight: 600;
+}
+
+form label {
+    font-size: 13px;
+}
+
+form p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 20px;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+.profile img {
+    width: 30px;
+}
+
+
+/* navbar section ends here */
+
+
+.content {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left-section {
+    background-color: white;
+    width: 65%;
+    height: 95%;
+
+
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.left-navbar {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 8%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-navbar li {
+    color: rgb(69, 69, 69);
+    width: 25%;
+    height: 100%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px solid rgba(187, 179, 179, 0.504);
+}
+
+.left-navbar li:hover {
+    color: black;
+    font-weight: 600;
+    border-bottom: 3px solid black;
+}
+
+.left-section h1 {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+
+.btn {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+}
+
+.btn button {
+    width: auto;
+    cursor: pointer;
+    display: flex;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: 500;
+    gap: 5px;
+    align-items: center;
+    padding: 13px;
+    height: 40px;
+}
+
+.btn button:hover {
+    font-weight: 700;
+}
+
+
+
+.btn button:nth-child(2) {
+    margin-right: 60%;
+}
+
+.btn button:nth-child(3) {
+    background-color: yellow;
+    border: none;
+}
+
+.btn img {
+    width: 15px;
+}
+
+
+.thumbnail {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 31%;
+    border: 2px solid rgba(128, 128, 128, 0.5);
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.instagram {
+    width: 100%;
+    height: 12%;
+    border: 2px solid rgba(128, 128, 128, 0.5);
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.videomsg {
+    width: 100%;
+    height: 12%;
+    border: 2px solid rgba(128, 128, 128, 0.5);
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+
+
+.thumbnail {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.changethumbnail {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.changethumbnail img {
+    width: 30px;
+    background-color: white;
+    background-color: rgb(236, 108, 236);
+    height: 30px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.changethumbnail a {
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+}
+
+.thumbnail form label {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.thumbnail form input {
+    width: 100%;
+    height: 30px;
+    border: 2px solid rgba(128, 128, 128, 0.501);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+.visibilty {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.visibilty button {
+    background-color: white;
+    cursor: pointer;
+    height: 10px;
+    gap: 8px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+
+
+.instagram {
+    display: flex;
+
+    width: 100%;
+}
+
+.videomsg {
+    display: flex;
+}
+
+.fourarrow {
+    width: 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid rgba(128, 128, 128, 0.5);
+}
+
+.fourarrow img {
+    width: 20px;
+}
+
+.followme {
+
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+}
+
+.videome {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.up {
+    display: flex;
+    padding: 0 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.down {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+.down input {
+    width: 85%;
+    height: 30px;
+    border: 2px solid rgba(128, 128, 128, 0.504);
+    border-radius: 5px;
+    padding: 3px;
+
+}
+
+.pencil {
+    margin-right: 450 px;
+}
+
+.pencil1{margin-right: 460px;}
+
+.monetize{background-color: rgb(53, 53, 215);
+margin-right: 380px;
+border-radius:5px ;
+padding: 2px;
+border: none;
+gap: 3px;
+display: flex;
+}
+
+.monetize p{color: white;}
+
+
+
+.paypalbtn {
+    background-color: rgb(141, 74, 250);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.playbtn {
+    background-color: rgb(255, 239, 19);
+    padding: 7px;
+    border-radius: 5px;
+}
+
+
+.mastercard {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 7%;
+    border: 2px solid rgba(128, 128, 128, 0.5);
+    margin-top: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mastercard img{
+padding: 5px;}
+
+.mastercard form{width: 80%;}
+.mastercard p{font-size: 10px;
+font-weight: 600;}
+
+.mastercard button{width: 16%;
+    background-color: white;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 8px;
+height: 30px;}
+
+
+/* LEFT SECTION ENDS HERE */
+
+
+
+
+.right-section {
+    width: 35%;
+ 
+    height: 95%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+    border-radius: 10px;
+background-color:white;
+    margin-right: 20px;
+    margin-right: 100px;
+}
+
+.right-section img{width: 30px;}
+
+.right-section h2{height: 5%;
+}
+
+.right-section p{font-size: 15px;
+    text-align: center;
+    
+width: 100%;}
+
+.mdbtn{width: auto;
+    padding: 5px;
+    background-color: rgb(222, 222, 222);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+gap:5px;
+
+margin-top: 20px;}
+
+
+
+.mdbtn button{height: 38px;
+    border-radius:8px;
+    border:none;
+    cursor: pointer;
+    background-color: rgb(222, 222, 222) ;
+    width: 100px;
+}
+
+.mdbtn button:hover{background-color: white;
+font-weight: 600;}
+
+.phone{width: 45%;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-top: 10px solid black;
+    border-radius: 15px;
+    padding: 10px;
+height: 60%;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+
+
+.phone h1{background-image: url(./elon-musk-amber-heard.webp);
+width: 70px;
+height: 70px;
+background-position: center;
+background-size: cover;
+border-radius: 100px;
+}
+
+.phone h4{margin-top:20px ;}
+
+.phone h5{margin-top:10px ;}
+
+.phone p{font-size: 10px;
+margin-top: 15px;}
+
+.hsix{display: flex;
+    margin-top: 15px;
+align-items: center;
+justify-content: center;} 
+
+.hsix img{width: 20px;}
+
+.threeicons{display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 40px ;
+width: 100%;
+align-items: center;
+justify-content: space-between;}
+
+.threeicons li img{width: 18px;}
+
+
+.fb-ytbtn button{width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    gap: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+padding: 5px;
+border: none;
+border-radius: 8px;}
+
+.fb-ytbtn button:hover{background-color: grey;
+font-weight: 600;}
+
+.fb-ytbtn button img{width: 20px;
+    height: 20px;
+background-color: white;
+border-radius:4px ;}
+
+.fb-ytbtn  button p{padding-bottom: 15px;
+    }
+
+
+.copy-savebtn{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    margin-top: 40px;
+    padding: 0 40px;
+    gap: 5px;
+    border-radius: 8px solid grey;
+    width: 100%;
+}
+
+.copy{display: flex;
+    padding: 5px;
+    height: 40px;
+    border-radius: 10px;
+    border:2px solid rgb(156, 156, 156);
+width: 80%;}
+
+.copy input{width: 95%;
+border: none;}
+
+.copy img{width: 20px;
+    padding: 2px;
+height: 20px;}
+
+.savebtn{width: 18%;
+    padding: 5px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    background-color: yellow;
+height: 40px;}
+    
